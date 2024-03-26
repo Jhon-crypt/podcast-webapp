@@ -1,6 +1,6 @@
 import { FaPodcast } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
-
+import Link from "next/link";
 
 export default function Hero() {
 
@@ -46,7 +46,7 @@ export default function Hero() {
 
                                         <div class="mt-4">
                                             <div class="d-grid gap-2">
-                                                <button class="btn btn-primary py-2" type="button">Sign up</button>
+                                                <Link href="/dashboard" class="btn btn-primary py-2 text-decoration-none" type="button">Sign up</Link>
                                             </div>
                                         </div>
 
